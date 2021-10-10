@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		37B67A0ACF05B6284BEF6095 /* libPods-RNQuizApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F2D33475994DED4634177D /* libPods-RNQuizApp.a */; };
+		2C5BAE17EA0D16298784FFB3 /* libPods-RNQuizApp-RNQuizAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0894846927BBAFDD16109289 /* libPods-RNQuizApp-RNQuizAppTests.a */; };
+		6D7E6329A55B7A3B9BAAD834 /* libPods-RNQuizApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68987EA3B70EB5C8465AF04 /* libPods-RNQuizApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C39082202AE687DA8A4D9767 /* libPods-RNQuizApp-RNQuizAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9681F09F432C60CF7B4A07 /* libPods-RNQuizApp-RNQuizAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +30,35 @@
 		00E356EE1AD99517003FC87E /* RNQuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNQuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNQuizAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNQuizAppTests.m; sourceTree = "<group>"; };
+		0894846927BBAFDD16109289 /* libPods-RNQuizApp-RNQuizAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNQuizApp-RNQuizAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* RNQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNQuizApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNQuizApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNQuizApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNQuizApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNQuizApp/main.m; sourceTree = "<group>"; };
-		57163633E87156361908A776 /* Pods-RNQuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNQuizApp.release.xcconfig"; path = "Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp.release.xcconfig"; sourceTree = "<group>"; };
-		727B62B3B62F069A1A788517 /* Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		357A1A316D4D01A354B9E14A /* Pods-RNQuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNQuizApp.release.xcconfig"; path = "Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp.release.xcconfig"; sourceTree = "<group>"; };
+		4BDA227147B203E8E6970F08 /* Pods-RNQuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNQuizApp.debug.xcconfig"; path = "Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+		51FFAA32B97AA8BC55CEC4D8 /* Pods-RNQuizApp-RNQuizAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNQuizApp-RNQuizAppTests.release.xcconfig"; path = "Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D17DCC82712F3AC009763BF /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		7D17DCC92712F3AC009763BF /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		7D17DCCA2712F3AC009763BF /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		7D17DCCB2712F3AC009763BF /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		7D17DCCC2712F3AC009763BF /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		7D17DCCD2712F3AC009763BF /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		7D17DCCE2712F3AC009763BF /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		7D17DCCF2712F3AC009763BF /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		7D17DCD02712F3AC009763BF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		7D17DCD12712F3AC009763BF /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		7D17DCD22712F3AC009763BF /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		7D17DCD32712F3AC009763BF /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		7D17DCD42712F3AC009763BF /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		7D17DCD52712F3AC009763BF /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		7D17DCD62712F3AC009763BF /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		7D17DCD72712F3AC009763BF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNQuizApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84FB2DD85D6A5272B8ADD689 /* Pods-RNQuizApp-RNQuizAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNQuizApp-RNQuizAppTests.release.xcconfig"; path = "Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		8C9681F09F432C60CF7B4A07 /* libPods-RNQuizApp-RNQuizAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNQuizApp-RNQuizAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6F2D33475994DED4634177D /* libPods-RNQuizApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNQuizApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBDBE4ED945B84E2A7733E20 /* Pods-RNQuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNQuizApp.debug.xcconfig"; path = "Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8E05907045243FA3921DD277 /* Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D68987EA3B70EB5C8465AF04 /* libPods-RNQuizApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNQuizApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39082202AE687DA8A4D9767 /* libPods-RNQuizApp-RNQuizAppTests.a in Frameworks */,
+				2C5BAE17EA0D16298784FFB3 /* libPods-RNQuizApp-RNQuizAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B67A0ACF05B6284BEF6095 /* libPods-RNQuizApp.a in Frameworks */,
+				6D7E6329A55B7A3B9BAAD834 /* libPods-RNQuizApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +116,33 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				B6F2D33475994DED4634177D /* libPods-RNQuizApp.a */,
-				8C9681F09F432C60CF7B4A07 /* libPods-RNQuizApp-RNQuizAppTests.a */,
+				D68987EA3B70EB5C8465AF04 /* libPods-RNQuizApp.a */,
+				0894846927BBAFDD16109289 /* libPods-RNQuizApp-RNQuizAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D17DCC72712F385009763BF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7D17DCD62712F3AC009763BF /* AntDesign.ttf */,
+				7D17DCD12712F3AC009763BF /* Entypo.ttf */,
+				7D17DCD42712F3AC009763BF /* EvilIcons.ttf */,
+				7D17DCCD2712F3AC009763BF /* Feather.ttf */,
+				7D17DCCF2712F3AC009763BF /* FontAwesome.ttf */,
+				7D17DCC82712F3AC009763BF /* FontAwesome5_Brands.ttf */,
+				7D17DCD52712F3AC009763BF /* FontAwesome5_Regular.ttf */,
+				7D17DCD02712F3AC009763BF /* FontAwesome5_Solid.ttf */,
+				7D17DCCA2712F3AC009763BF /* Fontisto.ttf */,
+				7D17DCD32712F3AC009763BF /* Foundation.ttf */,
+				7D17DCCC2712F3AC009763BF /* Ionicons.ttf */,
+				7D17DCD72712F3AC009763BF /* MaterialCommunityIcons.ttf */,
+				7D17DCD22712F3AC009763BF /* MaterialIcons.ttf */,
+				7D17DCC92712F3AC009763BF /* Octicons.ttf */,
+				7D17DCCE2712F3AC009763BF /* SimpleLineIcons.ttf */,
+				7D17DCCB2712F3AC009763BF /* Zocial.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -116,12 +155,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				7D17DCC72712F385009763BF /* Fonts */,
 				13B07FAE1A68108700A75B9A /* RNQuizApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNQuizAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				C81E4D5203ECE23C0A7B2FA0 /* Pods */,
+				999B39327DFC29D5D7C2EDB5 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,15 +177,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C81E4D5203ECE23C0A7B2FA0 /* Pods */ = {
+		999B39327DFC29D5D7C2EDB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EBDBE4ED945B84E2A7733E20 /* Pods-RNQuizApp.debug.xcconfig */,
-				57163633E87156361908A776 /* Pods-RNQuizApp.release.xcconfig */,
-				727B62B3B62F069A1A788517 /* Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig */,
-				84FB2DD85D6A5272B8ADD689 /* Pods-RNQuizApp-RNQuizAppTests.release.xcconfig */,
+				4BDA227147B203E8E6970F08 /* Pods-RNQuizApp.debug.xcconfig */,
+				357A1A316D4D01A354B9E14A /* Pods-RNQuizApp.release.xcconfig */,
+				8E05907045243FA3921DD277 /* Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig */,
+				51FFAA32B97AA8BC55CEC4D8 /* Pods-RNQuizApp-RNQuizAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,12 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNQuizAppTests" */;
 			buildPhases = (
-				7A5E6C1AA7E2324B46E07CA9 /* [CP] Check Pods Manifest.lock */,
+				B5116540398D7A3AE5BF7045 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				878BC99351DA828FEDBA3195 /* [CP] Embed Pods Frameworks */,
-				D781178C7DCF873301563B92 /* [CP] Copy Pods Resources */,
+				E7FF1CA86CBAA7B127F92761 /* [CP] Embed Pods Frameworks */,
+				4BABA56B54DB17B2019F7EE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +216,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNQuizApp" */;
 			buildPhases = (
-				16569AC152DB1CB584D52759 /* [CP] Check Pods Manifest.lock */,
+				B8DE71F9FCE944A2DB9A5F4B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C5AC3BE7FE404F03976A48C2 /* [CP] Embed Pods Frameworks */,
-				A60982C06FE511F391770C90 /* [CP] Copy Pods Resources */,
+				CCB4CA46D9E5A79ED2C68918 /* [CP] Embed Pods Frameworks */,
+				3AA3DA4E4FE7C04F3AD9749C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,29 +304,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		16569AC152DB1CB584D52759 /* [CP] Check Pods Manifest.lock */ = {
+		3AA3DA4E4FE7C04F3AD9749C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNQuizApp-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7A5E6C1AA7E2324B46E07CA9 /* [CP] Check Pods Manifest.lock */ = {
+		4BABA56B54DB17B2019F7EE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5116540398D7A3AE5BF7045 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,41 +360,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		878BC99351DA828FEDBA3195 /* [CP] Embed Pods Frameworks */ = {
+		B8DE71F9FCE944A2DB9A5F4B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNQuizApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A60982C06FE511F391770C90 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5AC3BE7FE404F03976A48C2 /* [CP] Embed Pods Frameworks */ = {
+		CCB4CA46D9E5A79ED2C68918 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,21 +399,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp/Pods-RNQuizApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D781178C7DCF873301563B92 /* [CP] Copy Pods Resources */ = {
+		E7FF1CA86CBAA7B127F92761 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNQuizApp-RNQuizAppTests/Pods-RNQuizApp-RNQuizAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +468,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 727B62B3B62F069A1A788517 /* Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig */;
+			baseConfigurationReference = 8E05907045243FA3921DD277 /* Pods-RNQuizApp-RNQuizAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +495,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84FB2DD85D6A5272B8ADD689 /* Pods-RNQuizApp-RNQuizAppTests.release.xcconfig */;
+			baseConfigurationReference = 51FFAA32B97AA8BC55CEC4D8 /* Pods-RNQuizApp-RNQuizAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +519,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBDBE4ED945B84E2A7733E20 /* Pods-RNQuizApp.debug.xcconfig */;
+			baseConfigurationReference = 4BDA227147B203E8E6970F08 /* Pods-RNQuizApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +545,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57163633E87156361908A776 /* Pods-RNQuizApp.release.xcconfig */;
+			baseConfigurationReference = 357A1A316D4D01A354B9E14A /* Pods-RNQuizApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
