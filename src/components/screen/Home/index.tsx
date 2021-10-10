@@ -28,6 +28,10 @@ const Home = ({ navigation }: HomeProps) => {
 		});
 	};
 
+	const goToWrongQuiz = () => {
+		navigation.navigate('WrongQuiz');
+	};
+
 	useEffect(() => {
 		getData({
 			key: KEY_WRONG_QUIZZES,
@@ -46,6 +50,9 @@ const Home = ({ navigation }: HomeProps) => {
 			>
 				<Text style={styles.playtext}>play</Text>
 			</TouchableOpacity>
+			<TouchableOpacity style={styles.wrongquiz} onPress={goToWrongQuiz}>
+					<Text style={{color:"#FFFFFF",fontSize:18}} >오답 노트</Text>
+				</TouchableOpacity>
 		</View>
 	);
 };
@@ -76,6 +83,15 @@ const styles = StyleSheet.create({
 	playtext: {
 		fontSize: 30,
 		color: "#FFFFFF"
+	},
+	wrongquiz : {
+		width:180,
+		height:50,
+		borderWidth:1,
+		borderRadius:50,
+		borderColor:"#FFFFFF",
+		justifyContent:"center",
+		alignItems:"center"
 	}
 
 });
