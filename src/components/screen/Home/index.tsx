@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import {
 	View,
 	StyleSheet,
@@ -6,13 +7,33 @@ import {
 	Text,
 	TouchableOpacity,
 } from 'react-native';
+import { useDispatch } from 'react-redux';
+import { navigateToQuiz } from '../../../shared/functions/NavigateTo';
+import { getData } from '../../../shared/functions/AsyncStorage';
 
+const KEY_WRONG_QUIZZES = 'KEY_WRONG_QUIZZES';
 
 interface HomeProps {
 	navigation?: any;
 }
 
 const Home = ({ navigation }: HomeProps) => {
+	const dispatch = useDispatch();
+
+	const goToQuiz = () => {
+		navigateToQuiz({
+			navigation,
+			dispatch,
+			number: 10,
+		});
+	};
+
+	useEffect(() => {
+		getData({
+			key: KEY_WRONG_QUIZZES,
+			dispatch,
+		});
+	}, []);
 
 	return (
 		<View style={styles.container}>
@@ -21,7 +42,7 @@ const Home = ({ navigation }: HomeProps) => {
 			<Text style={{ color: "#00008B", marginVertical: 20 }}>made by jwoo9928</Text>
 			<TouchableOpacity
 				style={styles.play}
-				onPress={() => navigation.navigate("Quiz")}
+				onPress={goToQuiz}
 			>
 				<Text style={styles.playtext}>play</Text>
 			</TouchableOpacity>
