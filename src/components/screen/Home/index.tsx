@@ -16,10 +16,13 @@ const Home = ({ navigation }: HomeProps) => {
 
 	return (
 		<View style={styles.container}>
-			<Text style={[styles.Title,{marginTop:120}]}>클래스팅</Text>
+			<Text style={[styles.Title, { marginTop: 120 }]}>클래스팅</Text>
 			<Text style={styles.Title}>Quiz</Text>
-			<Text style={{color : "#00008B",marginVertical:20}}>made by jwoo9928</Text>
-			<TouchableOpacity style={styles.play}>
+			<Text style={{ color: "#00008B", marginVertical: 20 }}>made by jwoo9928</Text>
+			<TouchableOpacity
+				style={styles.play}
+				onPress={() => navigation.navigate("Quiz")}
+			>
 				<Text style={styles.playtext}>play</Text>
 			</TouchableOpacity>
 		</View>
@@ -29,29 +32,29 @@ const Home = ({ navigation }: HomeProps) => {
 export default Home;
 
 const styles = StyleSheet.create({
-	container : {
-		flex:1,
-		backgroundColor:"#1E90FF",
-		alignItems:'center'
+	container: {
+		flex: 1,
+		backgroundColor: "#1E90FF",
+		alignItems: 'center'
 	},
-	Title : {
-		color : "#FFFFFF",
+	Title: {
+		color: "#FFFFFF",
 		fontSize: 50,
 	},
-	play : {
+	play: {
 		borderColor: "#FFFFFF",
-		borderWidth:2,
-		height:120,
-		width:120,
-		borderRadius:60,
-		alignContent:"center",
-		alignItems:"center",
-		marginVertical:100,
-		justifyContent:"center"
+		borderWidth: 2,
+		height: 120,
+		width: 120,
+		borderRadius: 60,
+		alignContent: "center",
+		alignItems: "center",
+		marginVertical: 100,
+		justifyContent: "center"
 	},
-	playtext : {
-		fontSize:30,
-		color:"#FFFFFF"
+	playtext: {
+		fontSize: 30,
+		color: "#FFFFFF"
 	}
 
 });
